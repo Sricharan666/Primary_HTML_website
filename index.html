@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>cosyone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+  integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top-part">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-8">
+            <p class="header-text"><b class="grn-clr">Free Shipping</b> "on orders over $100. Need Help?"
+              <b class="grn-clr">8665263979</b>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-4 text-right">
+            <nav class="lists">
+              <ul class="list-space">
+                <li class="link-space"><a href="account.html" class="grn-clr">My Account |</a></li>
+                <li class="link-space"><a href="orders_list.html" class="grn-blk">Orders List |</a></li>
+                <li class="link-space"><a href="wishlist.html" class="grn-blk">Wishlist |</a></li>
+                <li class="link-space"><a href="checkout.html" class="grn-blk">Checkout |</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="row brdr">
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <img src="images/logo.png">
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="same">
+              <form>
+                <input type="text" class="form-control" placeholder="Search">
+                <i class="fa fa-search"></i>
+              </form>
+              <div>
+                <button type="button" class="btn btn-outline-secondary login"><span
+                    class="glyphicon glyphicon-user"></span>
+                  Login
+                </button>
+              </div>
+              <div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle flag" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/flag.png">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><img src="images/india flag.png" class="img"></a>
+                    <a class="dropdown-item" href="#"><img src="images/Australia flag.png" class="img"></a>
+                    <a class="dropdown-item" href="#"><img src="images/Singapore flag.png" class="img"></a>
+                    <a class="dropdown-item" href="#"><img src="images/america flag.jpg" class="img"></a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle currency" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <b>$</b>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">€</a>
+                    <a class="dropdown-item" href="#">£</a>
+                    <a class="dropdown-item" href="#">¥</a>
+                    <a class="dropdown-item" href="#">₹</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle one" href="#" id="navbardrop" data-toggle="dropdown">
+                HOME
+              </a>
+              <div class="dropdown-menu">
+             
+                <a class="dropdown-item" href="#">Home v1</a>
+                <a class="dropdown-item" href="#">Home v2</a>
+                <a class="dropdown-item" href="#">Home v3</a>
+                <a class="dropdown-item" href="#">Home v4</a>
+              </div>
+            </li>
+        
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                SLIDERS
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Slider 1</a>
+                <a class="dropdown-item" href="#">Slider 2</a>
+                <a class="dropdown-item" href="#">Slider 3</a>
+                <a class="dropdown-item" href="#">Slider 4</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                SHOP
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Shop 1</a>
+                <a class="dropdown-item" href="#">Shop 2</a>
+                <a class="dropdown-item" href="#">Shop 3</a>
+                <a class="dropdown-item" href="#">Shop 4</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                PORTFOLIO
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">PORTFOLIO 1</a>
+                <a class="dropdown-item" href="#">PORTFOLIO 2</a>
+                <a class="dropdown-item" href="#">PORTFOLIO 3</a>
+                <a class="dropdown-item" href="#">PORTFOLIO 4</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                PAGES
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">PAGE 1</a>
+                <a class="dropdown-item" href="#">PAGE 2</a>
+                <a class="dropdown-item" href="#">PAGE 3</a>
+                <a class="dropdown-item" href="#">PAGE 4</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                FEATURES
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">FEATURE 1</a>
+                <a class="dropdown-item" href="#">FEATURE 2</a>
+                <a class="dropdown-item" href="#">FEATURE 3</a>
+                <a class="dropdown-item" href="#">FEATURE 4</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                BLOG
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">BLOG 1</a>
+                <a class="dropdown-item" href="#">BLOG 2</a>
+                <a class="dropdown-item" href="#">BLOG 3</a>
+                <a class="dropdown-item" href="#">BLOG 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        
+          </ul>
+        </nav>
+        <div>
+          <h1 class="text-right hrt">
+            <i class="fas fa-heart hrt"></i><sup class="rline">7</sup>
+          </h1>
+        </div>
+        <div>
+          <h1 class="hrt">
+            <i class="fas fa-arrow-right hrt"></i>
+            <i class="fas fa-arrow-left hrt"></i><sup class="rline">2</sup>
+          </h1>
+        </div>
+        <div>
+          <h1 class="hrt"><i class="fas fa-shopping-cart hrt"></i><sup>3</sup>$355
+          </h1>
+        </div>
+    </div>
+ </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <img src="images/Untitled-1.png" class="img2">
+        <p class="text">for only <br>
+        <h2 class="price">$299</h2>
+        </p>
+        <h2 class="charles">BY CHARLES AND RAY EAMES</h2>
+        <h1 class="eames">EAMES MOLDED PLASTIC <h1 class="side">SIDE CHAIR</h1>
+        </h1>
+        <h3 class="buy">BUY NOW!</h3>
+        <i class="fas fa-chevron-left arw"></i>
+        <i class="fas fa-chevron-right arw2"></i>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="bgr"></div>
+        <div class="bgr2">
+          <p class="free">FREE SHIPPING</p>
+          <p class="order">On Orders Over $500</p>
+          <p class="learn">LEARN MORE</p>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="bgr3"></div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="bgr4">
+          <p class="sign   text-center">Newsletter Sign Up</p>
+          <p class="get">Get exclusive deals you will not find anywhere </p>
+          <p class="any">else straight to your inbox!</p>
+          <input type="text" class="form-control srch" placeholder="Enter your email adress" name="search"><i
+            class="fas fa-envelope"></i>
+        </div>
+        <div class="bgr5"></div>
+      </div>
+
+    </div>
+    <div class="row ">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-sm bline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item lft">
+              <a class="nav-link cntct" href="#">FEATURED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cntct" href="#">NEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cntct" href="#">SPECIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cntct" href="#">HIT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cntct dub" href="#">RANDOM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cntct dub2" href="#">RATED</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="red">
+          <p class="sale"></p>
+          <p class="crcl">SALE</p>
+        </div>
+        <div class="tcntr">
+          <h5>Sed in lacus ut enim</h5>
+          <h5 class="chai">Chaises</h5>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star str"></i>
+          <i class="fas fa-star str"></i>
+          <h5 class="strke"><strike>$1 302.00</strike></h5>
+          <h5 class="num">$1 102.00</h5>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="red red-dub"></div>
+        <div class="tcntr">
+          <h5>Eget elementum vel</h5>
+          <h5 class="chai">Bookcases</h5>
+          <h5 class="num1">$730.00</h5>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star str"></i>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="red red-dub">
+          <p class="sale"></p>
+          <p class="gcrcl">NEW!</p>
+        </div>
+        <div class="tcntr">
+          <h5>Mauris accumsan nulla vel</h5>
+          <h5 class="chai">Beds</h5>
+          <h5 class="num1">$995.00</h5>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="red red-dub">
+          <p class="sale"></p>
+          <p class="lcrcl">OUT OF STOCK</p>
+        </div>
+        <div class="tcntr">
+          <h5>Praesent justo dolor</h5>
+          <h5 class="chai">Tables</h5>
+          <h5 class="num1">$279.00</h5>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star str"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-sm bline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item lft">
+              <a class="nav-link cntct" href="#">BRANDS</a>
+            </li>
+          </ul>
+        </nav>
+        <i class="fas fa-chevron-left arow"></i>
+        <i class="fas fa-chevron-right arow2"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4">
+        <div class="bchnge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-sm bline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item lft">
+              <a class="nav-link cntct" href="#">WHAT OUR CUSTOMERS SAY</a>
+            </li>
+          </ul>
+        </nav>
+        <i class="fas fa-chevron-left arow"></i>
+        <i class="fas fa-chevron-right arow2"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <h2 class="imag"></h2>
+        <h2 class="vest">“ Vestibulum sed ante. Donec sagittis euismod purus.
+          Sed ut<br>perspiciatis unde omnis iste natus error sit
+          voluptatem accu<br>santium doloremque laudantium. ”</h2>
+        <h3 class="brenda">Brenda Grosh,</h3>
+        <h5 class="new">New York</h5>
+        <i class="fas fa-star star2"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star str"></i>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <h2 class="imag"></h2>
+        <h2 class="vest">“ Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur<br> aut odit aut fugit, sed quia consequuntur
+          magni dolores eos.<br> Ut tellus dolor, dapibus eget, elementum vel. ”</h2>
+        <h3 class="brenda">Jhon Mccoist,</h3>
+        <h5 class="new">Los Angeles</h5>
+        <i class="fas fa-star star2"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star star1"></i>
+        <i class="fas fa-star star1"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-sm bline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item lft">
+              <a class="nav-link cntct" href="#">WHAT OUR CUSTOMERS SAY</a>
+            </li>
+          </ul>
+        </nav>
+        <i class="fas fa-chevron-left arow"></i>
+        <i class="fas fa-chevron-right arow2"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="newb"></h2>
+        <h2 class="gb">22<br>JUN</h2>
+        <i class="fas fa-comments msg"></i>3
+        <h3 class="sed">Sed ut perspiciatis unde omnis iste natu</h3>
+        <p class="etium">Etiam cursus leo vel metus.
+          Nulla facilisi.<br> Aenean nec eros. Vestibulum
+          ante ipsum<br> primis in faucibus orci luctus
+          et ultrices posu<br>ere cubilia Curae. </p>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="newb"></h2>
+        <h2 class="gb">22<br>JUN</h2>
+        <i class="fas fa-comments msg"></i>77
+        <h3 class="sed">onec sagittis euismod purus </h3>
+        <p class="etium">Donec sagittis euismod purus. Sed ut perspiciatis<br>
+          unde omnis iste natus error sit voluptatem accu<br>
+          santium doloremque laudantium, totam rem<br> aperiam</p>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="newb"></h2>
+        <h2 class="gb">22<br>JUN</h2>
+        <i class="fas fa-comments msg"></i>0
+        <h3 class="sed">Natus error sit voluptatem</h3>
+        <p class="etium">Mauris fermentum dictum magna.
+          Sed laoreet<br> aliquam leo. Ut tellus dolor, dapibus eget,
+          <br> elementum vel, cursus eleifend, elit.<br>
+          Aenean auctor wisi et urna.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="lock"><i class="fas fa-lock lck"></i></h2>
+        <h2 class="safe">Safe & Secure</h2>
+        <p class="nec">Suspendisse sollicitudin velit sed leo. Ut<br> pharetra augue nec augue. </p>
+        <h3 class="click">Click Here to Read More</h3>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="lock"><i class="fas fa-truck lck"></i></h2>
+        <h2 class="safe">Free Delivery</h2>
+        <p class="nec">Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit. Mauris fermentum dictum.</p>
+        <h3 class="click">Click Here to Read More</h3>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 yline">
+        <h2 class="lock"><i class="fas fa-certificate lck"></i></h2>
+        <h2 class="safe">Money Back Guarantee</h2>
+        <p class="nec">Etiam cursus leo vel metus. Nulla facilisi aenean<br> nec eros. Vestibulum ante ipsum. </p>
+        <h3 class="click">Click Here to Read More</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8 dlft">
+        <nav class="navbar navbar-expand-sm bline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item elft">
+              <a class="nav-link cntct" href="#">LATEST TWEETS</a>
+            </li>
+          </ul>
+        </nav>
+        <i class="fab fa-twitter ltwtr"></i>
+        <p class="ago">about 16 days ago</p>
+        <h3 class="maur">Mauris fermentum dictum magna. Sed laoreet
+          aliquam leo. Ut tellus dolor, dapibus eget,
+          elementum<br> vel, cursus eleifend, elit.
+          Aenean auctor wisi et urna. </h3>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-sm nline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item ">
+              <a class="nav-link ntct" href="#">STAY CONNECTED</a>
+            </li>
+          </ul>
+        </nav>
+        <i class="fab fa-facebook-f fb" title="facebook"></i>
+        <i class="fab fa-twitter twt" title="Twitter"></i>
+        <i class="fab fa-google-plus-g gpls" title="Google+"></i>
+        <i class="fas fa-wifi wfi" title="WiFi"></i>
+        <i class="fab fa-pinterest insta" title="Pinterest"></i>
+        <i class="fab fa-instagram insta" title="Instagram"></i>
+        <i class="fab fa-linkedin-in insta" title="invision"></i>
+        <i class="fab fa-vimeo insta" title="vimeo"></i>
+        <br>
+        <i class="fab fa-youtube utbe" title="Youtube"></i>
+        <i class="fas fa-dice-two dise" title="dice"></i>
+        <i class="fas fa-envelope-open dise" title="Email"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sm-12 lst">
+        <nav class="navbar navbar-expand-sm nline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item ">
+              <a class="nav-link tct" href="#">ABOUT US</a>
+            </li>
+          </ul>
+        </nav>
+        <img src="images/logo.png" class="log">
+        <p class="fermen">Mauris fermentum<br> dictum magna. Sed </p>
+        <p class="reet">laoreet aliquam leo. Ut tellus dolor, dapibus<br> eget, elementum vel, cursus. </p>
+        <p class="reet">Aenean auctor wisi et urna. Aliquam erat<br>
+          volutpat. Duis ac turpis. Integer rutrum ante<br>
+          eu lacus. Vestibulum libero nisl, porta vel,<br>
+          scelerisque.</p>
+        <h5>Read More</h5>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12 lst">
+        <nav class="navbar navbar-expand-sm nline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item ">
+              <a class="nav-link tct" href="#">THE SERVICES</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <a href="#">
+            <h3 class="acount"><i class="fa fa-caret-right" aria-hidden="true"></i>My account</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Order history</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Wishlist</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Vendor contact</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Front page</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Categories</h3>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12 lst">
+        <nav class="navbar navbar-expand-sm nline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item ">
+              <a class="nav-link tct" href="#">INFORMATION</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <a href="#">
+            <h3 class="acount"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>New collection</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Best sellers</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Manufacturers</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy policy</h3>
+          </a>
+          <a href="#">
+            <h3 class="history"><i class="fa fa-caret-right" aria-hidden="true"></i>Terms & condition</h3>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 lst">
+        <nav class="navbar navbar-expand-sm nline">
+          <ul class="navbar-nav scnd">
+            <li class="nav-item ">
+              <a class="nav-link tct" href="#">LIKE US ON FACEBOOK</a>
+            </li>
+          </ul>
+        </nav>
+        <img src="images/Layer 127.png" class="layer">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h5 class="reser">© 2014 CosyOne. All Rights Reserved.</h5>
+        <img src="images/cards.png" class="card">
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
